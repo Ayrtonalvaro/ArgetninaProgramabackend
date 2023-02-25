@@ -8,7 +8,6 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
-@Table(name = "users")
 public class UserLogin implements UserDetails {
 
     @Id
